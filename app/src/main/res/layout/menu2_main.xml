@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/teks_pizzamenu"
+        android:layout_width="139dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/pizzamenu"
+        android:textColor="@color/black"
+
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu2"
+        android:layout_width="156dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="404dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu1"
+        android:layout_width="156dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="404dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu4"
+        android:layout_width="156dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu3"
+        android:layout_width="156dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="478dp"
+        android:layout_height="83dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/pink"
+        android:elevation="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_cheesepizza"
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="148dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cheesepizzabg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_mushroompizza"
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="144dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mushroompizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_supremepizza"
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="412dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/supremepizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_pepperonipizza"
+        android:layout_width="136dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="412dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pepperonipizzabg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_cheesepizza"
+        android:layout_width="119dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="264dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/cheesepizza"
+        android:textColor="@color/black"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_harga"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="292dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/harga"
+        android:textColor="@color/ijo"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_pizza1"
+        android:layout_width="134dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="264dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/pizza1"
+
+        android:textColor="@color/black"
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_harga8"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="292dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/harga8"
+        android:textColor="@color/ijo"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_pizza2"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="532dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/pizza2"
+        android:textColor="@color/black"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_harga9"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="560dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/harga9"
+        android:textColor="@color/ijo"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_peppizza"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+
+        android:layout_marginTop="528dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/peppizza"
+
+        android:textColor="@color/black"
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_harga3"
+        android:layout_width="86dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="560dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/harga3"
+        android:textColor="@color/ijo"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_tambah1"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="300dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tambah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_tambah2"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="300dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tambah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_tambah3"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="568dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tambah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_tambah4"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="568dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tambah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconhome"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconcart"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconuser"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

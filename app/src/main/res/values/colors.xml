@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kotak3">#E04CBB</color>
+    <color name="white">#F5F5F5</color>
+    <color name="kotakkecil">#D9D9D9</color>
+    <color name="oval">#F27D7D</color>
+    <color name="pink">#F27D7D</color>
+    <color name="black">#FF000000</color>
+    <color name="pink_muda">#FFD0D0</color>
+    <color name="pink2">#FFD0D0</color>
+    <color name="ijo">#4CAF50</color>
+
+</resources>

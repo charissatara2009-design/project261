@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/teks_profil"
+        android:layout_width="187dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+
+        android:fontFamily="@font/aoboshi_one"
+        android:gravity="center"
+        android:text="@string/profil"
+        android:textColor="@color/black"
+
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonPink"
+        android:layout_width="330dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/buttonpink"
+        android:elevation="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPink2"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/buttonpink"
+        android:elevation="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPink3"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/buttonpink"
+        android:elevation="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPink4"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/buttonpink"
+        android:elevation="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPink5"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/buttonpink"
+        android:elevation="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="478dp"
+        android:layout_height="83dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/pink"
+        android:elevation="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconhome"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconcart"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_iconuser"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="656dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fotoProfil"
+        android:layout_marginTop="112dp"
+        android:layout_marginStart="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/profil"
+        android:src="@drawable/bgbulet"
+        android:clickable="true"
+        android:clipToOutline="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

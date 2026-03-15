@@ -1,0 +1,62 @@
+<resources>
+    <string name="mulai">Get Started</string>
+    <string name="tujuan">Antar Pesan Makanan!!</string>
+    <string name="log">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="pw">PASSWORD</string>
+    <string name="menu">Menu</string>
+    <string name="populer">Populer</string>
+    <string name="cheesepizza">Cheese Pizza</string>
+    <string name="harga">Rp 80.000</string>
+    <string name="chickenburger"> Chicken Burger</string>
+    <string name="harga2">Rp 60.000</string>
+    <string name="peppizza">Pepperoni Pizza</string>
+    <string name="harga3">Rp 85.000</string>
+    <string name="mochi">Mochi Dubai</string>
+    <string name="harga4">Rp 30.000</string>
+    <string name="burgermenu">Burger</string>
+    <string name="cheeseburger">Cheese Burger</string>
+    <string name="harga5">Rp 50.000</string>
+    <string name="beefburger">Beef Burger</string>
+    <string name="harga6">Rp 65.000</string>
+    <string name="specialburger">Special Burger</string>
+    <string name="harga7">Rp 70.000</string>
+    <string name="pizzamenu">Pizza</string>
+    <string name="pizza1">Mushroom Pizza</string>
+    <string name="harga8">Rp 70.000</string>
+    <string name="pizza2">Supreme Pizza</string>
+    <string name="harga9">Rp 90.000</string>
+    <string name="dessertmenu">Dessert</string>
+    <string name="hargamochi">Rp 30.000</string>
+    <string name="matchacake">Matcha Cake</string>
+    <string name="hargacake">Rp 40.000</string>
+    <string name="icecream">Fish Ice Cream</string>
+    <string name="hargaice">Rp 25.000</string>
+    <string name="macaroon">Macaroon</string>
+    <string name="hargamacaroon">Rp 45.000</string>
+    <string name="cart">Items in Carts</string>
+    <string name="satu">1</string>
+    <string name="total">Total :</string>
+    <string name="totalharga">Rp 115.000</string>
+    <string name="kembali">Back To Menu</string>
+    <string name="akhir">You Food Is On Its Way</string>
+    <string name="profil">My Profil</string>
+    <string name="nameprofil">CASYKY Project</string>
+    <string name="emailakun">caskyproject.gmail@com</string>
+    <string name="manageakun">Manage Akun</string>
+    <string name="orderhistory">Order History</string>
+    <string name="promokode">Promo kode</string>
+    <string name="logout">Logout</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

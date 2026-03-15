@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/teks_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+
+        android:fontFamily="@font/aoboshi_one"
+        android:gravity="center"
+        android:text="@string/cart"
+        android:textColor="@color/black"
+
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu1"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="456dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_spesialburger"
+        android:layout_width="156dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spesialburger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kotakmenu2"
+        android:layout_width="156dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/kotak_kecil"
+        android:backgroundTint="@color/kotakkecil"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/buttoncheckout"
+        android:elevation="8dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="Check Out"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_specialburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/specialburger"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_harga7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/harga7"
+        android:textColor="@color/ijo"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_minus2"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="224dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/satu"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_plus2"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="224dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_macaroon"
+        android:layout_width="156dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="324dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/macaroonbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_macaroon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/macaroon"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_hargamacaroon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/hargamacaroon"
+        android:textColor="@color/ijo"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_minus"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="420dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/satu"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_plus"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="420dp"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="512dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/total"
+        android:textColor="@color/black"
+
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks_totalharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+
+        android:fontFamily="@font/anta"
+        android:gravity="center"
+        android:text="@string/totalharga"
+        android:textColor="@color/ijo"
+
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/teks_kembali"
+        android:layout_width="215dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="644dp"
+
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/kembali"
+        android:textColor="@color/black"
+
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="@+id/kotakmenu1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
