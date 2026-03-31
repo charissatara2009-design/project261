@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Button
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -16,7 +17,9 @@ class SplashMainActivity : AppCompatActivity() {
         val btn_mulai: Button = findViewById<Button>(R.id.btn_mulai)
 
         btn_mulai.setOnClickListener {
-            val intent = Intent(this, Ma)
+            val intent = Intent(this, homemainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }
