@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project261">
         <activity
+            android:name=".`HomemainActivity.kt`"
+            android:exported="false" />
+        <activity
             android:name=".SplashMainActivity"
             android:exported="false" />
         <activity

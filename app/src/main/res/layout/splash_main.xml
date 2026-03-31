@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.512" />
 
     <Button
-        android:id="@+id/ovalmulai"
+        android:id="@+id/btn_mulai"
         android:layout_width="228dp"
         android:layout_height="51dp"
         android:background="@android:color/holo_blue_dark"
